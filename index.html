@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吕麒的主页</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>吕麒</h1>
+    <hr>
+    <h2>教育经历</h2>
+
+    <h2>获奖经历</h2>
+    <h3>国家级</h3>
+    <ul>
+        <li>无</li>
+        <li>无</li>
+    </ul>
+    <h3>省级</h3>
+    <h3>校级</h3>
+    <ol>
+        <li>2023-2024学年湖南师范大学校综合二等奖学金</li>
+        <li>2023-2024学年湖南师范大学三好学生</li>
+    </ol>
+    <h3>院级</h3>
+    <ol>
+        <li> <a href="#" onclick="openModal('./img/松果杯程序设计竞赛一等奖.jpg')">2024年湖南师范
+            大学-百度松果人才培养菁英班暨湖南省智能计算与感知现代产业学院智能计算产业班第二届产教融合“松果杯”程序设计挑战赛 <strong>一等奖</strong></a>
+        </li>
+    </ol>
+
+   
+    <!-- 模态框 -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="预览图片">
+        </div>
+    </div>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
